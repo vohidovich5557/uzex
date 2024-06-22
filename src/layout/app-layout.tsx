@@ -1,29 +1,40 @@
-import { Header } from "./header"
-import { Footer } from "./footer"
-import { Hero } from "../sections/hero"
-import { About } from "../sections/about"
+import {Header} from './header'
+import {Footer} from './footer'
+import { Hero } from "../sections/hero";
+import { About } from "../sections/about";
+import { Clients } from '../sections/clients';
+import { TeamCard } from '../sections/team';
+import { memo } from 'react';
 
-export const AppLayout = () => {
+
+
+ const AppLayout = () => {
     return (
         <>
-         <div className="flex flex-col justify-between h-[100%]">
-         <div className="flex flex-col ">
-         <header>
+        <div className='flex flex-col bg-whiteBg h-[100%]'>
+        <header>
             <Header />
-         </header>
-         <main className="flex flex-col">
-            <section>
-                <Hero />
-            </section>
-            <section>
-                <About />
-            </section>
-         </main>
-         </div>
-         <footer>
+        </header>
+            <main className='bg-whiteBg'>
+                <section>
+                    <Hero />
+                </section>
+                <section>
+                    <About />
+                </section>
+                <section>
+                    <Clients />
+                </section>
+                <section>
+                    <TeamCard />
+                </section>
+            </main>
+        <footer className='bg-whiteBg'>
             <Footer />
-         </footer>
-         </div>
+        </footer>
+        </div>
         </>
     )
 }
+
+export default memo(AppLayout)

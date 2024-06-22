@@ -8,10 +8,11 @@ export default {
     extend: {
       colors: {
         'whiteBg': '#F8F8F8',
+        'rareBlack': '#333333',
       },
       container: {
           center: true,
-          padding: '1rem',
+          padding: '10px',
           width: '1440px',
       },
       screens: {
