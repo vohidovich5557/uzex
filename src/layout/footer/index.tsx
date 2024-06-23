@@ -1,7 +1,21 @@
 import React, { useState } from "react"
 import { SubmitHandler, useForm } from "react-hook-form"
 import CheckedImg from '../../assets/checkedImg.png'
+import { z } from 'zod'
 import { toast } from "sonner";
+import { zodResolver } from "@hookform/resolvers/zod";
+
+export const formSchema = z.object({
+  name: z.string().min(4, {message: 'F.I.SH kiriting'}).max(40, {message: 'F.I.SH uzunligi 40 ta harfdan oshmasligi kerak'}),
+  message: z.string().min(10, {message: 'Xabar Aniqroq Kiriting'}).max(100, {message: 'Xabar uzunligi 100 ta harfdan oshmasligi kerak'}),
+  phone: z.string().min(9, {message: 'Telefon raqamni to`liq kiriting'}).max(14, {message: 'Telefon raqam uzunligi 14 ta harfdan oshmasligi kerak'}),
+  service: z.enum(["avtoraqam", "Birja Savdo", "E-Auksion"], {
+    errorMap: () => ({ message: "Xizmat turini tanlang" }),
+  }),
+
+})
+
+export type FormDataSchema = z.infer<typeof formSchema>
 
 interface FormData {
     name: string;
@@ -41,7 +55,9 @@ const sendToTelegramBot = async (data: FormData): Promise<any> => {
 
 
 export const Footer:React.FC = () => {
-    const {register, handleSubmit, formState: {errors}, reset} = useForm<FormData>();
+    const {register, handleSubmit, formState: {errors}, reset} = useForm<FormData>({
+      resolver: zodResolver(formSchema)
+    });
     const [visible, setVisible] = useState(false);
     
       const submit: SubmitHandler<FormData> = async(data) => {
