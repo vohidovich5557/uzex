@@ -3,6 +3,7 @@ import { Header } from "../../layout/header"
 import { About } from "../../sections/about"
 import { Clients } from "../../sections/clients"
 import { Hero } from "../../sections/hero"
+import { Location } from "../../sections/location"
 import { TeamCard } from "../../sections/team"
 
 
@@ -25,6 +26,9 @@ export const HomePage = () => {
                 </section>
                 <section>
                     <TeamCard />
+                </section>
+                <section>
+                    <Location />
                 </section>
             </main>
         <footer className='bg-whiteBg'>

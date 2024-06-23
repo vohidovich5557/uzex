@@ -54,13 +54,13 @@ export const Hero = () => {
                     <span ref={ref} className="text-[35px] md:text-[40px] font-bold text-rareBlack">
                         {inView && <CountUp key={key} start={0} end={10} duration={2}  />}
                     </span>
-                    <span className="text-[23px] md:text-[28px] font-normal text-rareBlack">Clients</span>
+                    <span className="text-[23px] md:text-[28px] font-normal text-rareBlack">Klientlar</span>
                 </div>
                 <div  className="flex flex-col items-center gap-[10px]">
                     <span ref={ref} className="text-[35px] md:text-[40px] font-bold text-rareBlack">
                         {inView && <CountUp key={key} start={0} end={140} duration={2}  />}
                     </span>
-                    <span className="text-[23px] md:text-[28px] font-normal text-rareBlack">Project Done</span>
+                    <span className="text-[23px] md:text-[28px] font-normal text-rareBlack">Ko`rsatilgan xizmatlar</span>
                 </div>
                 <div  className="flex flex-col items-center gap-[10px]">
                     <span ref={ref} className="text-[35px] md:text-[40px] font-bold text-rareBlack">

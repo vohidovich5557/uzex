@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@import url('https://unpkg.com/leaflet@1.7.1/dist/leaflet.css');
+
+/* Optional: additional custom styles */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
