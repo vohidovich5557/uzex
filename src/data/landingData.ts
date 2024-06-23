@@ -13,6 +13,7 @@ import bmw from '../assets/bmw.png'
 // cardData img Path
 
 import cardImg1 from '../assets/person1.png'
+import shoxImg from '../assets/shox.png'
 
 
 export const serviceData = [
@@ -74,6 +75,6 @@ export const cardData = [
         id: 3,
         name: 'Shohjahon Uktamov',
         position: 'Programmist',
-        imgPath: cardImg1,  
+        imgPath: shoxImg,  
     }
 ]

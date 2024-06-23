@@ -2,7 +2,10 @@ import  AppLayout  from "./layout/app-layout"
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect, useState } from "react"
+import { Route, Routes } from "react-router-dom";
 import { HashLoader } from "react-spinners";
+import { ClientsPage } from "./pages/clients";
+import { HomePage } from "./pages/home";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -40,7 +43,12 @@ function App() {
         />
       </div>
     ) : (
-      <AppLayout />
+      <Routes>
+        <Route path="/" element={<AppLayout />} >
+           <Route index element={<HomePage />} />
+           <Route path="clients/:id" element={<ClientsPage />} />
+        </Route>
+      </Routes>
     )}
     </div>
     </>
