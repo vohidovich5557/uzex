@@ -1,9 +1,9 @@
+@import url('https://unpkg.com/leaflet@1.7.1/dist/leaflet.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-@import url('https://unpkg.com/leaflet@1.7.1/dist/leaflet.css');
 
 /* Optional: additional custom styles */
 html, body, #root {
