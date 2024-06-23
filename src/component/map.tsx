@@ -20,14 +20,6 @@ const position: [number, number] = [39.7747, 64.4286];
 const MyMap: React.FC = () => {
     const [showModal, setShowModal] = useState(false);
   
-    const handleMouseOver = () => {
-      setShowModal(true);
-    };
-  
-    const handleMouseOut = () => {
-      setShowModal(false);
-    };
-  
     return (
       <div className="relative w-[100%] h-[100%]">
         <MapContainer center={position} zoom={13} className="w-[100%] h-[100%] rounded-[30px] object-cover">
