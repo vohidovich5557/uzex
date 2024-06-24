@@ -39,7 +39,7 @@ export const Hero = () => {
       }, []);
     return (
         <>
-        <div className="container bg-whiteBg flex flex-col lg:flex-row-reverse lg:items-start gap-[10px] md:gap-[20px] items-center  lg:mt-[90px] mt-[50px]">
+        <div className="container bg-whiteBg flex flex-col lg:flex-row-reverse lg:items-start gap-[10px] md:gap-[20px] items-center  lg:mt-[130px] mt-[50px]">
             <div className='flex flex-col gap-[50px]'>
             <div className="items-start lg:items-center flex flex-col  w-[100%]">
                 <h2 className="text-[23px] lg:text-[40px] font-semibold mb-[20px] lg:mb-[50px] text-rareBlack">Kompaniya Haqida</h2>
