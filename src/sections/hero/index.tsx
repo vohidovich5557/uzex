@@ -40,7 +40,7 @@ export const Hero = () => {
     return (
         <>
         <div className="container bg-whiteBg flex flex-col lg:flex-row-reverse lg:items-start gap-[10px] md:gap-[20px] items-center  lg:mt-[90px] mt-[50px]">
-            <div data-aos='fade-left' data-aos-duration='2000' className='flex flex-col gap-[50px]'>
+            <div className='flex flex-col gap-[50px]'>
             <div className="items-start lg:items-center flex flex-col  w-[100%]">
                 <h2 className="text-[23px] lg:text-[40px] font-semibold mb-[20px] lg:mb-[50px] text-rareBlack">Kompaniya Haqida</h2>
                 <div className="w-[100%] mb-[20px] lg:w-[700px] lg:items-center lg:text-center">
@@ -70,7 +70,7 @@ export const Hero = () => {
                 </div>
             </div>
             </div>
-            <div data-aos="fade-right" data-aos-duration='2000' className="w-[100%] md:w-[750px] lg:w-[100%] lg:h-auto"> 
+            <div className="w-[100%] md:w-[750px] lg:w-[100%] lg:h-auto"> 
                 <img src={AboutImg} alt="this is my img" className='w-[100%] rounded-[30px] h-[100%] object-cover' />
             </div>
         </div>

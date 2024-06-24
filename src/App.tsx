@@ -35,7 +35,6 @@ function App() {
 
   return (
     <>
-    <div className="h-[100vh] flex flex-col">
     {loading ? (
       <div className="w-[100%] h-[100%] flex items-center justify-center">
         <HashLoader color="#333333"
@@ -50,7 +49,6 @@ function App() {
         </Route>
       </Routes>
     )}
-    </div>
     </>
   )
 }
