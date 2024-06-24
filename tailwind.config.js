@@ -9,6 +9,7 @@ export default {
       colors: {
         'whiteBg': '#F8F8F8',
         'rareBlack': '#333333',
+        'rareBlue': '#055387',
       },
       container: {
           center: true,
