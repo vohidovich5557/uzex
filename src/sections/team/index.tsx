@@ -2,7 +2,7 @@ import { cardData } from '../../data/landingData'
 import { CardTeam } from './card'
 
 
-export const TeamCard = () => {
+ const TeamCard = () => {
     return (
         <>
          <div className="container pt-[50px] flex flex-col lg:items-center lg:justify-center gap-[40px] lg:gap-[60px] pb-[50px]">
@@ -16,3 +16,5 @@ export const TeamCard = () => {
         </>
     )
 }
+
+export default TeamCard

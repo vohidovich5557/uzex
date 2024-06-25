@@ -54,7 +54,7 @@ const sendToTelegramBot = async (data: FormData): Promise<any> => {
 
 
 
-export const Footer:React.FC = () => {
+ const Footer:React.FC = () => {
     const {register, handleSubmit, formState: {errors}, reset} = useForm<FormData>({
       resolver: zodResolver(formSchema)
     });
@@ -139,3 +139,6 @@ export const Footer:React.FC = () => {
         </>
     )
 }
+
+
+export default Footer

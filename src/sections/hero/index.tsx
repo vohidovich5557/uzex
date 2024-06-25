@@ -7,7 +7,7 @@ import { Typed } from 'react-typed';
 import TypingText from '../../component/typeText';
 
 
-export const Hero = () => {
+ const Hero = () => {
     const [inView, setInView] = useState(false);
     const [key, setKey] = useState(0);
     const ref = useRef();
@@ -77,3 +77,5 @@ export const Hero = () => {
         </>
     )
 }
+
+export default Hero

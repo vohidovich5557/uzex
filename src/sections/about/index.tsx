@@ -2,7 +2,7 @@ import { serviceData } from '../../data/landingData'
 import { Card } from './card'
 
 
-export const About = () => {
+ const About = () => {
     return (
         <>
          <div className="container bg-whiteBg flex flex-col  pb-[20px] lg:pb-[100px] items-start lg:items-center gap-[30px] lg:gap-[50px] pt-[70px]"> 
@@ -16,3 +16,5 @@ export const About = () => {
         </>
     )
 }
+
+export default About

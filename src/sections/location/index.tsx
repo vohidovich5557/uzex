@@ -2,7 +2,7 @@ import MyMap from "../../component/map"
 
 
 
-export const Location = () => {
+ const Location = () => {
     return (
         <>
          <div className="container flex flex-col items-start mb-[50px] md:mb-[70px] lg:mb-[90px] md:items-center justify-center gap-[40px]">
@@ -22,3 +22,6 @@ export const Location = () => {
         </>
     )
 }
+
+
+export default Location

@@ -15,6 +15,7 @@ import bmw from '../assets/bmw.png'
 import person3 from '../assets/person3.png'
 import shoxImg from '../assets/shox.png'
 import vohidtursunov from '../assets/person2.png'
+import { AmericaFlag, RussianFlag, UzbFlag } from '../assets/svgs'
 
 
 export const serviceData = [
@@ -84,4 +85,25 @@ export const cardData = [
         position: 'Programmist',
         imgPath: shoxImg,  
     }
+]
+
+export const langData = [
+    {
+        id: 1,
+        lang: 'Eng',
+        clickLang: 'en',
+        flag: AmericaFlag,
+    },
+    {
+        id: 2,
+        lang: 'Rus',
+        clickLang: 'ru',
+        flag: RussianFlag,
+    },
+    {
+        id: 3,
+        lang: 'Uzb',
+        clickLang: 'uz',
+        flag: UzbFlag,
+    },
 ]

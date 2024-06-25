@@ -35,7 +35,7 @@ function App() {
 
   return (
     <>
-    {loading ? (
+    {/* {loading ? (
       <div className="w-[100%] h-[100%] flex items-center justify-center">
         <HashLoader color="#333333"
          size={88}
@@ -48,7 +48,13 @@ function App() {
            <Route path="clients/:id" element={<ClientsPage />} />
         </Route>
       </Routes>
-    )}
+    )} */}
+    <Routes>
+        <Route path="/" element={<AppLayout />} >
+           <Route index element={<HomePage />} />
+           <Route path="clients/:id" element={<ClientsPage />} />
+        </Route>
+      </Routes>
     </>
   )
 }

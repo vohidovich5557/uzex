@@ -2,7 +2,7 @@ import { clientData } from "../../data/landingData"
 import { ClientCard } from "./card"
 
 
-export const Clients = () => {
+ const Clients = () => {
     return (
         <>
         <div className="container bg-whiteBg flex flex-col pt-[20px] lg:items-center gap-[30px] lg:pb-[70px] pb-[20px]">
@@ -16,3 +16,5 @@ export const Clients = () => {
         </>
     )
 }
+
+export default Clients

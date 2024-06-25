@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next"
 import {Blurhash} from 'react-blurhash'
 
 
-export const Header: React.FC = () => {
+ const Header: React.FC = () => {
     const [imageLoaded, setImageLoaded] = useState(false);
     const {t} = useTranslation();
     useEffect(() => {
@@ -46,3 +46,5 @@ export const Header: React.FC = () => {
         </>
     )
 }
+
+export default Header
