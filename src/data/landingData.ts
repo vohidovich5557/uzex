@@ -16,27 +16,29 @@ import person3 from '../assets/person3.png'
 import shoxImg from '../assets/shox.png'
 import vohidtursunov from '../assets/person2.png'
 import { AmericaFlag, RussianFlag, UzbFlag } from '../assets/svgs'
+import i18next from 'i18next'
+
 
 
 export const serviceData = [
     {
         id: 1,
-        name: 'AvtoRaqam Auksion',
+        name: i18next.t("about.number"),
         imgPath: serviceImg,
     },
     {
         id: 2,
-        name: 'Tovar Xomashyo Savdosi',
+        name: i18next.t("about.trade"),
         imgPath: serviceImg2,
     },
     {
         id: 3,
-        name: 'E-Auksion',
+        name: i18next.t("about.auksion"),
         imgPath: serviceImg3,
     },
     {
         id: 4,
-        name: 'Visitka Sayt Xizmati',
+        name: i18next.t("about.web"),
         imgPath: serviceImg4,
     }
 ];
@@ -70,19 +72,19 @@ export const cardData = [
     {
         id: 1,
         name: 'Vohid Tursunov',
-        position: 'Katta Trader',
+        position: i18next.t("team.trader1"),
         imgPath: vohidtursunov,
     },
     {
         id: 2,
         name: 'Shoxrux Rajabov',
-        position: 'O`rta Trader',
+        position: i18next.t("team.trader2"),
         imgPath: person3,
     },
     {
         id: 3,
         name: 'Shohjahon Uktamov',
-        position: 'Programmist',
+        position: i18next.t("team.trader3"),
         imgPath: shoxImg,  
     }
 ]

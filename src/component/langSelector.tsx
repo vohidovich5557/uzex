@@ -43,7 +43,10 @@ export const LangSelector = () => {
     const changeLanguage = (lng: string) => {
         i18n.changeLanguage(lng);
       };
-    return (
+    const reloadPage = () => {
+        window.location.reload()
+    }  
+      return (
         <div ref={dropRef} className=" relative cursor-pointer flex-col items-center justify-center gap-[10px]">
             <div onClick={() => setIsDropdownOpen(!isDropdownOpen)} className="h-auto px-[0.625rem] py-[0.625rem] flex items-center justify-center gap-[0.625rem] border border-white rounded-[8px] bg-rareBlack/60">
                 {selectedLanguage === 'Rus' && <RussianFlag />}
@@ -61,7 +64,7 @@ export const LangSelector = () => {
                         }
                         return (
                             <div onClick={
-                                () => {handleLanguageSelect(item); changeLanguage(item.clickLang)}} key={item.id}
+                                () => {handleLanguageSelect(item);reloadPage(); changeLanguage(item.clickLang); }} key={item.id}
                                 className=" flex items-center justify-center cursor-pointer gap-[20px]">
                                 <span className="text-white text-[1.125rem]">
                                     {item.lang}
