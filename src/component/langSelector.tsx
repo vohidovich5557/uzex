@@ -11,7 +11,7 @@ interface LangProp {
 
 
 export const LangSelector = () => {
-    const [selectedLanguage, setSelectedLanguage] = useState(localStorage.getItem('selectedLang') || 'Uzb')
+    const [selectedLanguage, setSelectedLanguage] = useState(localStorage.getItem('selectedLang') || 'Eng')
     const [isDropdownOpen, setIsDropdownOpen] = useState(false)
     const dropRef = useRef(null)
     const {i18n} = useTranslation()
