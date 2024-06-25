@@ -1,47 +1,10 @@
-import serviceImg from '../assets/serviceImg.png'
-import serviceImg2 from '../assets/serviceImg2.png'
-import serviceImg3 from '../assets/serviceImg3.png'
-import serviceImg4 from '../assets/serviceImg4.png'
-
-// clientImg Data
-
 import agroKlaster from '../assets/agroKlaster.png'
 import starbacks from '../assets/starbacks.png'
 import figma from '../assets/figma.png'
 import bmw from '../assets/bmw.png'
 
 // cardData img Path
-
-import person3 from '../assets/person3.png'
-import shoxImg from '../assets/shox.png'
-import vohidtursunov from '../assets/person2.png'
 import { AmericaFlag, RussianFlag, UzbFlag } from '../assets/svgs'
-import i18next from 'i18next'
-
-
-
-export const serviceData = [
-    {
-        id: 1,
-        name: i18next.t("about.number"),
-        imgPath: serviceImg,
-    },
-    {
-        id: 2,
-        name: i18next.t("about.trade"),
-        imgPath: serviceImg2,
-    },
-    {
-        id: 3,
-        name: i18next.t("about.auksion"),
-        imgPath: serviceImg3,
-    },
-    {
-        id: 4,
-        name: i18next.t("about.web"),
-        imgPath: serviceImg4,
-    }
-];
 
 export const clientData = [
     {
