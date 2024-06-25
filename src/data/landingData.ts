@@ -68,27 +68,6 @@ export const clientData = [
     }
 ]
 
-export const cardData = [
-    {
-        id: 1,
-        name: 'Vohid Tursunov',
-        position: i18next.t("team.trader1"),
-        imgPath: vohidtursunov,
-    },
-    {
-        id: 2,
-        name: 'Shoxrux Rajabov',
-        position: i18next.t("team.trader2"),
-        imgPath: person3,
-    },
-    {
-        id: 3,
-        name: 'Shohjahon Uktamov',
-        position: i18next.t("team.trader3"),
-        imgPath: shoxImg,  
-    }
-]
-
 export const langData = [
     {
         id: 1,
