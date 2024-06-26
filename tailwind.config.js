@@ -10,6 +10,9 @@ export default {
         'whiteBg': '#F8F8F8',
         'rareBlack': '#333333',
         'rareBlue': '#055387',
+        'lightBlue': '#F6FBFF',
+        'boldBlue': '#8CABFF',
+        'rareGray': '#868AA2',
       },
       container: {
           center: true,
