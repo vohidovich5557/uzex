@@ -41,6 +41,9 @@ i18n
           team: {
             title: "Our Team",
             trader1: "Trader",
+            vohid: "Void Tursunov is the head of the company. This company has been providing services to many clusters and companies from the stock exchange side for many years.",
+            shoxrux: "Shokhrukh Rajabov has been doing a lot of work at the stock exchange for 3-4 years. And besides that, find a separate customer and serve their needs in an excellent way.",
+            shohjahon: "Shahjahon Oktamov is a web developer and works on business systematization. And now he has just started his work. Can agree with entrepreneurs. To work with them",
             trader2: "Trader Helper",
             trader3: "Programmer",
           },
@@ -93,6 +96,9 @@ i18n
           team: {
             title: "Bizning Jamoa",
             trader1: "Katta Trader",
+            vohid: "Void Tursunov firma rahbari. Bu firma anca yıllarda davomida ko`plab klaster va firmalarga birja tomondan xizmat ko`rsatib kelmoqda. Va mijozlarni qiziqtira olgan.",
+            shoxrux: "Shoxrux Rajabov 3, 4 yıldan beri birjada ancha ishlarni bajarib kelmoqda. Va undan tashqari o`zi alohida mijoz topib ularni ehtiyojini a`lo darajada qodirib xizmat ko`rsatkan.",
+            shohjahon: "Shohjahon O`ktamov - web dasturchi va biznes bo`yicha tizimllashtirish bo`yicha ishlab kelmoqda. Va hozir o`z faoliyatini endgina boshladi. Tadbirkorlar bilan kelisha oladi.",
             trader2: "O`rtacha Trader",
             trader3: "Dasturchi",
           },
@@ -128,7 +134,7 @@ i18n
           },
           hero: {
             title: "О компании",
-            text: "Innovative Solutions is a cutting-edge technology company that provides innovative solutions for businesses of all sizes. Founded in 2010, we are dedicated to helping our clients achieve their goals through our customized and effective technology solutions. With over a decade of experience, we have built a reputation for delivering high-quality services to our clients.",
+            text: "Innovative Solutions is a cutting-edge technology company that provides innovative solutions for businesses of all sizes.",
             client: "Клиенты",
             service: "предоставляемые услуги",
           },
@@ -145,6 +151,9 @@ i18n
           team: {
             title: "Наша команда",
             trader1: "Tорговец",
+            vohid: "Вахид Турсунов — руководитель компании. Эта компания уже много лет оказывает услуги многим кластерам и компаниям со стороны фондовой биржи.",
+            shoxrux: "Шохрух Раджабов уже 3-4 года много работает на бирже. А кроме этого найти отдельного заказчика и превосходно удовлетворить его потребности.",
+            shohjahon: "Шахджахон Октамов — веб-разработчик, занимается систематизацией бизнеса. И сейчас он только начал свою работу. Могу договориться с предпринимателями.",
             trader2: "Tорговец помощник",
             trader3: "Программист",
           },
