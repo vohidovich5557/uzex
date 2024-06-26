@@ -15,7 +15,7 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 // Coordinates for Bukhara, Uzbekistan
-const position: [number, number] = [39.7747, 64.4286];
+const position: [number, number] = [39.763930796739366, 64.44563978298419];
 
 const MyMap: React.FC = () => {
     const [showModal, setShowModal] = useState(false);
