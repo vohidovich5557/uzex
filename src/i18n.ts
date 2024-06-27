@@ -24,7 +24,7 @@ i18n
           },
           hero: {
             title: "About Company",
-            text: "Innovative Solutions is a cutting-edge technology company that provides innovative solutions for businesses of all sizes. Founded in 2010, we are dedicated to helping our clients achieve their goals through our customized and effective technology solutions. With over a decade of experience, we have built a reputation for delivering high-quality services to our clients.",
+            text: "The company called ———— was founded in — and it is a one-person company and works by delivering and providing products to people on the stock market. And in addition, he has been satisfying the needs of several people by participating in e-auction and auto license sales.",
             client: "Clients",
             service: "provided services",
           },
@@ -85,7 +85,7 @@ i18n
           },
           hero: {
             title: "Kompaniya Haqida",
-            text: "Innovative Solutions is a cutting-edge technology company that provides innovative solutions for businesses of all sizes. Founded in 2010, we are dedicated to helping our clients achieve their goals through our customized and effective technology solutions. With over a decade of experience, we have built a reputation for delivering high-quality services to our clients.",
+            text: "———— deb ataluvchi firma — yilda tashkil topgan bo`lib unda bir nefha firma va birja bozorida  bo`lgan mahsulotlarni odamlarga olib berish va ularni ta`minlash orqali ishlab kelmoqda. Va undan tashqari e-auksion va avtoraqam savdolarida qatnashib bir necha odamlarni ehtiyojini qondirib kelmoqda. ",
             client: "Klientlar",
             service: "Ko`rsartilgan xizmatlar",
           },
@@ -146,7 +146,7 @@ i18n
           },
           hero: {
             title: "О компании",
-            text: "Innovative Solutions is a cutting-edge technology company that provides innovative solutions for businesses of all sizes.",
+            text: "Компания под названием ———— была основана в — и является компанией, состоящей из одного участника, и работает путем доставки и поставки продуктов людям на фондовом рынке. Кроме того, он удовлетворял потребности нескольких человек, участвуя в электронных аукционах и продаже автолицензий.",
             client: "Клиенты",
             service: "предоставляемые услуги",
           },
