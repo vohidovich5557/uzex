@@ -20,7 +20,7 @@ import Slider from 'react-infinite-logo-slider'
                 >
                 {clientData.map((item) => (
                     <Slider.Slide>
-                        <ClientCard key={item.id} imgPath={item.imgPath} id={item.id} />
+                        <ClientCard key={item.id} imgPath={item.imgPath ?? ''} id={item.id} />
                     </Slider.Slide>
                 ))}
                 </Slider>

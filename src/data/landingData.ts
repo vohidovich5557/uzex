@@ -1,8 +1,4 @@
 import agroKlaster from '../assets/agroKlaster.png'
-import starbacks from '../assets/starbacks.png'
-import figma from '../assets/figma.png'
-import bmw from '../assets/bmw.png'
-
 // cardData img Path
 import { AmericaFlag, RussianFlag, UzbFlag } from '../assets/svgs'
 
@@ -19,15 +15,15 @@ export const clientData = [
     },
     {
         id:2,
-        imgPath: starbacks,
+        imgPath: null,
     },
     {
         id: 3,
-        imgPath: figma,
+        imgPath: null,
     },
     {
         id: 4,
-        imgPath: bmw,
+        imgPath: null,
     }
 ]
 

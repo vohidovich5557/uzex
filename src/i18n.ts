@@ -37,6 +37,12 @@ i18n
           },
           clients: {
             title: "Our Clients",
+            alt: "in this place logo of clients",
+            client1: {
+              title: "Bukhara AgroKlaster",
+              desc: "BUKHORA AGROKLASTER limited liability company, the Civil Code of the Republic of Uzbekistan, the Law On protection of joint-stock companies and shareholders' rights and On limited liability and additional liability companies and the resolutions of the shareholders of Bukhoropakhtsanoat XB joint-stock company dated July 6 and July 11, 2019 organized in accordance with the decisions of the extraordinary general meeting. It was approved in a new revision by the decision of the extraordinary general meeting of the participants on December 14, 2019.",
+              subtitle: "Provided services",
+            }
           },
           team: {
             title: "Our Team",
@@ -92,6 +98,12 @@ i18n
           },
           clients: {
             title: "Bizning Mijozlar",
+            alt: "Bu joyda mijozlarning logosi",
+            client1: {
+              title: "Buxoro Agroklaster",
+              desc: "“БУХОРО АГРОКЛАСТEР” масъулияти чекланган жамияти Ўзбекистон Республикасининг Фуқаролик кодекси, “Акциядорлик жамиятлари ва акциядорларнинг ҳуқуқларини ҳимоя қилиш тўғрисида”ги ва “Масъулияти чекланган ва қўшимча масъулиятли жамиятлар туғрисида”ги Қонуни ҳамда “Бухоропахтасаноат ХБ” акциядорлик жамияти акциядорларининг 2019 йил 06 июлдаги ва 11 июлдаги навбатдан ташқари умумий йиғилиш қарорларига мувофиқ ташкил этилган. Иштирокчиларнинг 2019 йил 14 декабрдаги навбатдан ташқари умумий йиғилиш қарори билан янги тахрирда тасдиқланган.",
+              subtitle: "Ko`rsatilgan va ko`rsatilayotgan xizmatlar",
+            }
           },
           team: {
             title: "Bizning Jamoa",
@@ -147,6 +159,12 @@ i18n
           },
           clients: {
             title: "Наши клиенты",
+            alt: "В этом месте логотипы наших клиентов",
+            client1: {
+              title: "Бухарский агрокластер",
+              desc: "Общество с ограниченной ответственностью «БУХОРА АГРОКЛАСТЕР», Гражданский кодекс Республики Узбекистан, Законы «О защите акционерных обществ и прав акционеров» и «Об обществах с ограниченной и дополнительной ответственностью» и решения акционеров « Акционерного общества «Бухоропахцаноат ХБ» от 6 и 11 июля 2019 года, организованного в соответствии с решениями внеочередного общего собрания акционеров. Он утвержден в новой редакции решением внеочередного общего собрания участников 14 декабря 2019 года.",
+              subtitle: "Оказанные и предоставляемые услуги",
+            }
           },
           team: {
             title: "Наша команда",
