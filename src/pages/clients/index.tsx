@@ -18,9 +18,9 @@ export const ClientsPage = () => {
             </div>
             </Link>
             <div className="w-[100%] md:w-[80%] flex flex-col items-center justify-center gap-[20px]">
-                <h2 className="w-auto h-auto py-[10px] px-[20px] text-rareBlue font-bold text-[25px]">{result[0].name}</h2>
+            {result[0] && result[0].name && <h2 className="w-auto h-auto py-[10px] px-[20px] text-rareBlue font-bold text-[25px]">{result[0].name(t)}</h2>}
                 <div className="w-[100%] h-auto flex items-center justify-center">
-                    <span className="text-center text-rareBlack/80 text-[16px]">{result[0].info}</span>
+                {result[0] && result[0].info && <span className="text-center text-rareBlack/80 text-[16px]">{result[0].info(t)}</span>}
                 </div>
                 <h3 className="w-auto h-auto py-[10px] text-rareBlue px-[20px]  font-bold text-[19px]">{t("clients.client1.subtitle")}</h3>
                 <div className=" w-[100%] flex flex-col items-center justify-center gap-[10px]">
