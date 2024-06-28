@@ -45,6 +45,9 @@ i18n
             }
           },
           team: {
+            name1: 'Vokhid Tursunov',
+            name2: 'Shokhrukh Rajabov',
+            name3: 'Shohjahon Oktamov',
             title: "Our Team",
             trader1: "Trader",
             vohid: "Void Tursunov is the head of the company. This company has been providing services to many clusters and companies from the stock exchange side for many years.",
@@ -106,6 +109,9 @@ i18n
             }
           },
           team: {
+            name1: 'Vohid Tursunov',
+            name2: 'Shoxrux Rajabov',
+            name3: 'Shohjahon O`ktamov',
             title: "Bizning Jamoa",
             trader1: "Katta Trader",
             vohid: "Void Tursunov firma rahbari. Bu firma anca yıllarda davomida ko`plab klaster va firmalarga birja tomondan xizmat ko`rsatib kelmoqda. Va mijozlarni qiziqtira olgan.",
@@ -168,6 +174,9 @@ i18n
           },
           team: {
             title: "Наша команда",
+            name1: 'Вохид Турсунов',
+            name2: 'Шохрух Раджабов',
+            name3: 'Шахджахон Октамов',
             trader1: "Tорговец",
             vohid: "Вахид Турсунов — руководитель компании. Эта компания уже много лет оказывает услуги многим кластерам и компаниям со стороны фондовой биржи.",
             shoxrux: "Шохрух Раджабов уже 3-4 года много работает на бирже. А кроме этого найти отдельного заказчика и превосходно удовлетворить его потребности.",

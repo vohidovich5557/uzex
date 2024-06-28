@@ -1,6 +1,11 @@
 import { TFunction } from 'i18next'
 import agroKlaster from '../assets/agroKlaster.png'
 // cardData img Path
+import vohid from '../assets/person2.png'
+import shoxrux from '../assets/person3.png'
+import shokh from '../assets/shox.png'
+
+
 import { AmericaFlag, RussianFlag, UzbFlag } from '../assets/svgs'
 
 export const clientData = [
@@ -43,4 +48,28 @@ export const langData = [
         clickLang: 'uz',
         flag: UzbFlag,
     },
+]
+
+export const cardData = [
+    {
+        id: 1,
+        name: (t: TFunction) => t('team.name1'),
+        position: (t: TFunction) => t('team.trader1'),
+        desc: (t:TFunction) => t('team.vohid'),
+        imgPath: vohid, 
+    },
+    {
+        id: 2,
+        name: (t: TFunction) => t('team.name2'),
+        position: (t: TFunction) => t('team.trader2'),
+        desc: (t:TFunction) => t('team.shoxrux'),
+        imgPath: shoxrux,
+    },
+    {
+        id: 3,
+        name: (t: TFunction) => t('team.name3'),
+        position: (t: TFunction) => t('team.trader3'),
+        desc: (t:TFunction) => t('team.shohjahon'),
+        imgPath: shokh,
+    }
 ]
