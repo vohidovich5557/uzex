@@ -2,8 +2,7 @@ import { TFunction } from 'i18next'
 import agroKlaster from '../assets/agroKlaster.png'
 // cardData img Path
 import vohid from '../assets/person2.png'
-import shoxrux from '../assets/person3.png'
-import shokh from '../assets/shox.png'
+import shokh from '../assets/shokh.png'
 
 
 import { AmericaFlag, RussianFlag, UzbFlag } from '../assets/svgs'
@@ -63,7 +62,7 @@ export const cardData = [
         name: (t: TFunction) => t('team.name2'),
         position: (t: TFunction) => t('team.trader2'),
         desc: (t:TFunction) => t('team.shoxrux'),
-        imgPath: shoxrux,
+        imgPath: null,
     },
     {
         id: 3,

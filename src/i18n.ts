@@ -20,7 +20,8 @@ i18n
       en: {
         translation: {
           header: {
-            text: "Easy trade, Fast service"
+            text: "Easy trade, Fast service",
+            headerText: 'Broker services',
           },
           hero: {
             title: "About Company",
@@ -84,7 +85,8 @@ i18n
       uz: {
         translation: {
           header: {
-            text: "Oson savdo, Tezkor Xizmat"
+            text: "Oson savdo, Tezkor Xizmat",
+            headerText: 'Broker xizmatlari',
           },
           hero: {
             title: "Kompaniya Haqida",
@@ -148,7 +150,8 @@ i18n
       ru: {
         translation: {
           header: {
-            text: "Легкая торговля, быстрое обслуживание"
+            text: "Легкая торговля, быстрое обслуживание",
+            headerText: 'Боркерские услуги',
           },
           hero: {
             title: "О компании",

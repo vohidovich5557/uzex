@@ -17,7 +17,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
                     </div>
                 </div>
                 <div className="w-[100%] flex flex-col items-center gap-[20px] md:gap-[30px] lg:gap-[50px] justify-center h-auto">
-                    <h2 data-aos='fade-up' className="text-[50px] md:text-[60px] font-bold text-rareBlack">UzEx</h2>
+                    <h2 data-aos='fade-up' className="text-[30px] md:text-[50px] font-bold text-rareBlack">{t("header.headerText")}</h2>
                     <button data-aos="fade-up" data-aos-duration="2000" className="px-[20px] py-[10px] md:py-[20px] md:px-[30px] rounded-[50px] bg-rareBlack text-white font-semibold">{t("header.text")}</button>
                 </div>
             </div>
