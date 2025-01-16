@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import { Telegram } from "../../assets/svgs"
-import MyMap from "../../component/map"
 import { useTranslation } from "react-i18next"
 
 
