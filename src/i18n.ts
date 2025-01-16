@@ -21,20 +21,20 @@ i18n
         translation: {
           header: {
             text: "Easy trade, Fast service",
-            headerText: 'Broker services',
+            headerText: 'UzTradeLink',
           },
           hero: {
             title: "About Company",
-            text: "The company called 'Shoda Marvarid' was founded in — and it is a one-person company and works by delivering and providing products to people on the stock market. And in addition, he has been satisfying the needs of several people by participating in e-auction and auto license sales.",
+            text: "UzTradeLink is a modern and innovative company specializing in working with exchanges and auctions in the Uzbek market. We collaborate with leading factories and manufacturers in Uzbekistan, assisting them in bringing their products to the market through exchanges. Additionally, we provide services to our clients for participating in auctions and trade negotiations.",
             client: "Clients",
             service: "provided services",
           },
           about: {
             title: "Services we Provide",
-            number: "autoNumber",
-            trade: "Commodity Trade",
+            number: "Autonumber",
+            uzex: "UzEx Trade",
+            ebirja: 'E-Birja Trade',
             auksion: "e-auksion",
-            web: "Web Development",
           },
           clients: {
             title: "Our Clients",
@@ -59,16 +59,17 @@ i18n
           },
           location: {
             title: "Our Location",
-            address: "Uzbekistan, Bukhara, Lattico",
+            address: "Uzbekistan, Tashkent",
           },
           call: {
             title: "Contact Us",
             name: "Full Name",
             serviceC: {
               service0: 'Choose Service',
-              service1: "Commodity Trade",
-              service2: "e-auksion",
-              service3: "AutoNumber",
+              service1: "UzEx Trade",
+              service2: 'E-Birja Trade',
+              service3: "e-auksion",
+              service4: "Autonumber",
             },
             errors: {
               error1: "Please enter your name",
@@ -86,20 +87,20 @@ i18n
         translation: {
           header: {
             text: "Oson savdo, Tezkor Xizmat",
-            headerText: 'Broker xizmatlari',
+            headerText: 'UzTradeLink',
           },
           hero: {
             title: "Kompaniya Haqida",
-            text: "'Shoda Marvarid' deb ataluvchi firma — yilda tashkil topgan bo`lib unda bir nefha firma va birja bozorida  bo`lgan mahsulotlarni odamlarga olib berish va ularni ta`minlash orqali ishlab kelmoqda. Va undan tashqari e-auksion va avtoraqam savdolarida qatnashib bir necha odamlarni ehtiyojini qondirib kelmoqda. ",
+            text: "UzTradeLink — O‘zbekiston bozorida birjalar va auksionlar bilan ishlashga ixtisoslashgan zamonaviy va innovatsion kompaniya. Biz O‘zbekistonning yetakchi zavod va ishlab chiqaruvchilari bilan hamkorlik qilib, ularning mahsulotlarini birjalar orqali bozorga olib chiqishga ko‘maklashamiz. Shuningdek, mijozlarimiz uchun auksionlarda qatnashish va savdolashuv xizmatlarini ham taqdim etamiz.",
             client: "Klientlar",
             service: "Ko`rsartilgan xizmatlar",
           },
           about: {
             title: "Bizning xizmatlar",
-            number: "AvtoRaqam",
-            trade: "Birja Savdo",
+            number: "Avtoraqam",
+            uzex: "UzEx Savdo",
+            ebirja: 'E-Birja Savdo',
             auksion: "e-auksion",
-            web: "Web xizmatlari",
           },
           clients: {
             title: "Bizning Mijozlar",
@@ -124,16 +125,17 @@ i18n
           },
           location: {
             title: "Bizning Manzil",
-            address: "Uzbekistan, Bukhara, Lattico",
+            address: "Uzbekistan, Toshkent",
           },
           call: {
             title: "Biz bilan bog`laning",
             name: "F.I.O",
             serviceC: {
               service0: 'Xizmat Turini tanglang',
-              service1: "Birja Savdo",
-              service2: "e-auksion",
-              service3: "AvtoRaqam",
+              service1: "UzEx Savdo",
+              service2: 'E-Birja Savdo',
+              service3: "e-auksion",
+              service4: "Avtoraqam",
             },
             errors: {
               error1: "Ismingizni kiriting",
@@ -151,20 +153,20 @@ i18n
         translation: {
           header: {
             text: "Легкая торговля, быстрое обслуживание",
-            headerText: 'Боркерские услуги',
+            headerText: 'UzTradeLink',
           },
           hero: {
             title: "О компании",
-            text: "Компания под названием 'Shoda Marvarid' была основана в — и является компанией, состоящей из одного участника, и работает путем доставки и поставки продуктов людям на фондовом рынке. Кроме того, он удовлетворял потребности нескольких человек, участвуя в электронных аукционах и продаже автолицензий.",
+            text: "UzTradeLink — современная и инновационная компания, специализирующаяся на работе с биржами и аукционами на рынке Узбекистана. Мы сотрудничаем с ведущими заводами и производителями Узбекистана, помогая им выводить свою продукцию на рынок через биржи. Также мы предоставляем нашим клиентам услуги по участию в аукционах и торгах.",
             client: "Клиенты",
             service: "предоставляемые услуги",
           },
           about: {
             title: "Услуги, которые мы предоставляем",
             number: "номер машины",
-            trade: "Торговля",
+            uzex: "УзЭкс Трейд",
+            ebirja: 'Э-Биржa Трейд',
             auksion: "э-аукцион",
-            web: "Разработка сайта",
           },
           clients: {
             title: "Наши клиенты",
@@ -189,16 +191,17 @@ i18n
           },
           location: {
             title: "Наше расположение",
-            address: "Узбекистан, Бухара, Латтико",
+            address: "Узбекистан, Ташкент",
           },
           call: {
             title: "Свяжитесь с нами",
             name: "ФИО",
             serviceC: {
               service0: 'выберите тип услуги',
-              service1: "Торговля",
-              service2: "Э-аукцион",
-              service3: "Номер машины",
+              service1: "УзЭкс Трейд",
+              service2: 'Э-Биржa Трейд',
+              service3: "Э-аукцион",
+              service4: "Номер машины",
             },
             errors: {
               error1: "Введите введите свое имя",

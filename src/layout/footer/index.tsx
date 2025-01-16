@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import { SubmitHandler, useForm } from "react-hook-form"
-import CheckedImg from '../../assets/checkedImg.png'
 import { z } from 'zod'
 import { toast } from "sonner";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -104,6 +103,7 @@ const sendToTelegramBot = async (data: FormData): Promise<any> => {
                            <option value="avtoraqam">{t("call.serviceC.service1")}</option>
                            <option value="Birja Savdo">{t("call.serviceC.service2")}</option>
                            <option value="E-Auksion">{t("call.serviceC.service3")}</option>
+                           <option value="E-Auksion">{t("call.serviceC.service4")}</option>
                          </select>
                     </div>
                     {errors.service && typeof errors.service.message === 'string' && <p className="text-red-500 text-[16px] font-normal italic">{errors.service.message}</p>}
@@ -126,18 +126,6 @@ const sendToTelegramBot = async (data: FormData): Promise<any> => {
             </div>
             </form>
         </div>
-        {visible ? (
-            <div className="w-[100%] h-[100%] flex items-center justify-center top-0 left-0 right-0 bottom-0 fixed">
-                <div  className="md:w-[500px] w-[300px]   flex items-center justify-center  h-[400px] py-[20px] px-[20px] bg-black/90 rounded-[40px]">
-                <div className="md:w-[400px] w-[200px] h-[200px] flex flex-col items-center justify-center gap-[30px]">
-                    <img src={CheckedImg} alt="img of checked img" className="w-[100%] h-[100%] object-cover" />
-                    <span className="text-white font-semibold text-[23px]">So`rovingiz Omadli Jo`natildi!</span>
-                </div>
-                </div>
-            </div>
-        ) : (
-            null
-        )}
         </>
     )
 }

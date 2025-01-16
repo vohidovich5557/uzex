@@ -8,7 +8,6 @@ const LazyFooter =  lazy(() => import('../../layout/footer'));
 const LazyClients = lazy(() => import('../../sections/clients'));
 const LazyHero = lazy(() => import('../../sections/hero'));
 const LazyLocation = lazy(() => import('../../sections/location'));
-const LazyTeamCard = lazy(() => import('../../sections/team'));
 
 
 export const HomePage = () => {
@@ -31,9 +30,9 @@ export const HomePage = () => {
                 <section>
                     <LazyClients />
                 </section>
-                <section>
+                {/* <section>
                     <LazyTeamCard />
-                </section>
+                </section> */}
                 <section>
                     <LazyLocation />
                 </section>

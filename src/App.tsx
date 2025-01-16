@@ -4,7 +4,6 @@ import 'aos/dist/aos.css'
 import { useEffect, useState } from "react"
 import { Route, Routes } from "react-router-dom";
 import { HashLoader } from "react-spinners";
-import { ClientsPage } from "./pages/clients";
 import { HomePage } from "./pages/home";
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
@@ -46,7 +45,6 @@ function App() {
       <Routes>
         <Route path="/" element={<AppLayout />} >
            <Route index element={<HomePage />} />
-           <Route path="clients/:id" element={<ClientsPage />} />
         </Route>
       </Routes>
     )}

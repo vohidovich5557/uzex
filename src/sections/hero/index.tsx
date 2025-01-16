@@ -52,19 +52,19 @@ import { useTranslation } from 'react-i18next';
             <div className="w-[100%] flex flex-col md:flex-row mb-[20px] md:justify-around items-center gap-[20px] justify-center">
                 <div className="flex flex-col items-center gap-[5px]">
                     <span ref={ref} className="text-[35px] md:text-[40px] font-bold text-rareBlack">
-                        {inView && <CountUp key={key} start={0} end={10} duration={2}  />}
+                        0
                     </span>
                     <span className="text-[23px] md:text-[28px] font-normal text-rareBlack">{t("hero.client")}</span>
                 </div>
                 <div  className="flex flex-col items-center gap-[10px]">
                     <span ref={ref} className="text-[35px] md:text-[40px] font-bold text-rareBlack">
-                        {inView && <CountUp key={key} start={0} end={140} duration={2}  />}
+                        0
                     </span>
                     <span className="text-[23px] md:text-[28px] font-normal text-rareBlack">{t("hero.service")}</span>
                 </div>
                 <div  className="flex flex-col items-center gap-[10px]">
                     <span ref={ref} className="text-[35px] md:text-[40px] font-bold text-rareBlack">
-                        {inView && <CountUp key={key} start={0} end={61} duration={2}  />}
+                        0
                     </span>
                     <span className="text-[23px] md:text-[28px] font-normal text-rareBlack">5-Stars Review</span>
                 </div>
