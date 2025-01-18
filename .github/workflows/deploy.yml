@@ -12,45 +12,28 @@ jobs:
     steps:
       # Step 1: Checkout the code
       - name: Checkout code
-        but not supplied. It seems the secret `_PRODUCTION uses: actions/checkout@v3
+        uses: actions/checkout@v3
 
-      # Step 2: Set up_DEPLOYMENT` might not be correctly referenced in the workflow Node.js
+      # Step 2: Set up Node.js
       - name: Set up Node.js
-        uses.
-
-Here is the corrected `deploy.yml` file to: actions/setup-node@v3
+        uses: actions/setup-node@v3
         with:
-          node-version ensure the secrets are correctly referenced:
+          node-version: 18
 
-```: 18
-
-      # Step 3: Install dependencies and buildyaml
-name: Deploy to aHost
-
-on:
-  push:
-    branches:
- the project
+      # Step 3: Install dependencies and build the project
       - name: Install dependencies and build
         run: |
           npm install
-          npm run build      - main
-
-jobs:
-  deploy:
-    runs-on: ubuntu-l
+          npm run build
 
       # Step 4: Deploy files via FTP
       - name: Deploy via FTP
-        uses: SamKirkland/atest
-
-    steps:
-      # Step 1: Checkout the codeFTP-Deploy-Action@v4.3.0
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.0
         with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          server: ${{ secrets._PRODUCTION_DEPLOYMENT.FTP_HOST }}
+          username: ${{ secrets._PRODUCTION_DEPLOYMENT.FTP_USERNAME }}
+          password: ${{ secrets._PRODUCTION_DEPLOYMENT.FTP_PASSWORD }}
           protocol: ftp
-          port: ${{ secrets.FTP_PORT }}
+          port: ${{ secrets._PRODUCTION_DEPLOYMENT.FTP_PORT }}
           local-dir: ./build
           server-dir: /public_html
