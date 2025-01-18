@@ -35,5 +35,5 @@ jobs:
           password: ${{ secrets._PRODUCTION_DEPLOYMENT.FTP_PASSWORD }}
           protocol: ftp
           port: ${{ secrets._PRODUCTION_DEPLOYMENT.FTP_PORT }}
-          local-dir: ./build
+          local-dir: ./dist
           server-dir: /public_html
