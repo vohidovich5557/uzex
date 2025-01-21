@@ -13,19 +13,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Step 2: Set up Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
 
-      # Step 3: Install dependencies and build the project
       - name: Install dependencies and build
         run: |
           npm install
           npm run build
 
-      # Step 4: Deploy files via FTP
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.0
         with:
@@ -33,6 +30,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: FTP
-          port: ${{ secrets.FTP_PORT }}
+          port: ${{ secrets.FTP_PORT || 21 }}
           local-dir: ./dist
           server-dir: /public_html
+          log-level: verbose
