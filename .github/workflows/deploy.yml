@@ -34,5 +34,5 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: FTP
           port: ${{ secrets.FTP_PORT }}
-          local-dir: ./dist
-          server-dir: /public_html
+          local-dir: ./dist/ # Added trailing slash
+          server-dir: /public_html/
